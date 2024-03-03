@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textSize="60dp"
+        android:text="To do list"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:background="@color/blue"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/lightblue"
+        android:fontFamily="monospace"
+        android:text="Add Task"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/lightblue"
+        android:text="Edit Task"
+        android:textSize="30dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/btnDel"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/lightblue"
+        android:text="Delete Task"
+        android:textSize="30dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:layout_marginLeft="80dp"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/lightblue"
+        android:text="View To do List"
+        android:textSize="30dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:layout_marginLeft="45dp"/>
+
+
+
+</LinearLayout>
+
+</LinearLayout>
